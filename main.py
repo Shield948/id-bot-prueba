@@ -13,12 +13,24 @@ Telegram = Client(
 @Telegram.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     text = START_TEXT.format(update.from_user.id)
- 
+    reply_markup = START_BUTTON
+    await update.reply_text(
+        text=text,
+        disable_web_page_preview=True,
+        reply_markup=reply_markup,
+        quote=True
+    )
 
 # COMMANDS
 
-START_TEXT = """🆔 Tu ID de telegrama : `{}`"""
+START_TEXT = """🆔 Tu ID de telegram es : `{}`"""
 
+# BUTTONS
 
+START_BUTTON = InlineKeyboardMarkup(
+             [[
+             InlineKeyboardButton('♻️ 𝑩𝒐𝒕 𝒃𝒚 ♻️', url=f"https://t.me/RedHOODPRO")
+             ]]
+        )
 
 Telegram.run()
