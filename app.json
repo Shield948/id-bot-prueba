@@ -1,0 +1,31 @@
+{
+    "name": "Telegram ID Bot",
+    "description": "A bot to find telegram user id easily",
+    "repository": "https://github.com/ierfeioq/id-bot-prueba",
+    "keywords": [
+        "telegram",
+        "telegram id",
+        "userid",
+        "id"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token Get From @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID Get From @TeleBotSupport"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH Get From @TeleBotSupport"
+        },
+        "UPDATE_CHANNEL": {
+            "description": "Your Channel Username Without @",
+            "value": "BX_Botz"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
