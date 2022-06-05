@@ -56,6 +56,6 @@ python3 main.py
 
 # Bot
 
-<a href="https://telegram.me/BXSupport"><img src="https://ps.w.org/telegram-bot/assets/icon-256x256.png?rev=2295394"></a>
+<a href="Google.com"><img src="https://ps.w.org/telegram-bot/assets/icon-256x256.png?rev=2295394"></a>
 
 ------
