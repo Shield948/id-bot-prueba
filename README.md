@@ -56,6 +56,6 @@ python3 main.py
 
 # Details
 
-<a href="https://telegram.me/BXSupport"><img src="https://img.favpng.com/20/19/25/telegram-logo-computer-icons-png-favpng-CSPNmwE21ncXNAbV5T05xMgZP.jpg"></a>
+<a href="https://telegram.me/BXSupport"><img src="https://ps.w.org/telegram-bot/assets/icon-256x256.png?rev=2295394"></a>
 
 ------
